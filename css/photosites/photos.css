@@ -1,0 +1,16 @@
+/* format the image */
+img {
+    width: 30%;  /* each photo take 30% of the width */
+    margin: calc(10%/6);  /* want evenly margin between photos: (100-3*30)/6 */
+}
+
+/* format the heading and border */
+nav {
+    text-transform: uppercase; /* convert all char to uppercase */
+    border-bottom: 2px solid #f1f1f1; /* border between header and photos */
+    width: 30%; /* format the same as photo */
+    margin-left: calc(10%/6);
+    padding: 1.2em 0; /* space between heading and photos */
+    font-family: 'Raleway', sans-serif;  /* font from google font */
+    font-size: 1.5em;
+}
